@@ -4,12 +4,6 @@ permalink: "/about/"
 layout: page
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Lead and develop the Nike West Territory digital vision. Oversee creative development & storytelling that live on Nike West digital and social platforms. Provide strategic direction, partner with key stakeholders, and execute flawlessly.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Lead and develop the Nike West Territory digital vision. Oversee creative development & storytelling that live on Nike West digital and social platforms. Provide strategic direction, partner with key stakeholders, and execute flawlessly.
