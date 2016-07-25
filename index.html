@@ -14,4 +14,11 @@ layout: default
   <p> {{site.description}} </p>
 
   </section>
+
+  <section class="home-about">
+<h2>Community</h2>
+{% for communities in site.communities %}
+<p> {{ communities.title }} </p>
+  </section>
+{% endfor %}
 </div>
