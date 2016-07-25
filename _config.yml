@@ -11,6 +11,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  work:
+    title: Work
+    output: true
 email: your-email@domain.com
 description: |-
   Lead and develop the Nike West Territory digital vision. Oversee creative development & storytelling that live on Nike West digital and social platforms. Provide strategic direction, partner with key stakeholders, and execute flawlessly.
