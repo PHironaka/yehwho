@@ -9,7 +9,7 @@
 // Our variables
 $base-font-family: 'PT Serif', serif;
 $header-font: 'Playfair Display', serif;
-$base-font-size:   16px;
+$base-font-size:   1.1em;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -51,5 +51,7 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
+        "header",
+        "footer",
         "syntax-highlighting"
 ;
