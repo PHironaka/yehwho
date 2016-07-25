@@ -8,9 +8,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  about-kam:
-    title: about-kam
-    output: true
 email: your-email@domain.com
 description: Nike West Coast Digital Director | Formerly @Twitter
 baseurl: 
