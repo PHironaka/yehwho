@@ -9,14 +9,14 @@ collections:
     title: Uploads
     output: true
 email: your-email@domain.com
-description: Nike West Coast Digital Director | Formerly @Twitter
+description: |-
+  Lead and develop the Nike West Territory digital vision. Oversee creative development & storytelling that live on Nike West digital and social platforms. Provide strategic direction, partner with key stakeholders, and execute flawlessly.
+
+  Lead and develop the Nike West Territory digital vision. Oversee creative development & storytelling that live on Nike West digital and social platforms. Provide strategic direction, partner with key stakeholders, and execute flawlessly.
 baseurl: 
 url: http://yourdomain.com
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
 image: "/uploads/KY-portrait.jpeg"
-paragraph: |-
-  Lead and develop the Nike West Territory digital vision. Oversee creative development & storytelling that live on Nike West digital and social platforms. Provide strategic direction, partner with key stakeholders, and execute flawlessly.
-
-  Lead and develop the Nike West Territory digital vision. Oversee creative development & storytelling that live on Nike West digital and social platforms. Provide strategic direction, partner with key stakeholders, and execute flawlessly.
+paragraph: Nike West Coast Digital Director | Formerly @Twitter
