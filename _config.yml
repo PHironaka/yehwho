@@ -9,8 +9,7 @@ collections:
     title: Uploads
     output: true
 email: your-email@domain.com
-description: Kamauri Yeh is currently the Nike West Coast Digital Director | Formerly
-  @Twitter
+description: Nike West Coast Digital Director | Formerly @Twitter
 baseurl: 
 url: http://yourdomain.com
 twitter_username: jekyllrb
