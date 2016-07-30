@@ -16,9 +16,30 @@ layout: default
   </section>
 
   <section class="home-about">
-<h2>Community</h2>
+<h2>Projects</h2>
+<div class="projects">
+
 {% for communities in site.communities %}
-<p> {{ communities.title }} </p>
-  </section>
+<h3> - {{ communities.title }} </h3>
+<p> {{ communities.content }} </p>
 {% endfor %}
+
+</div>
+
+
+
+  </section>
+
+  <section class="home-about">
+<h2>Work</h2>
+<ul>
+{% for work in site.work %}
+<li><a  href="{{ work.url | prepend: site.baseurl }}">  {{ work.title }} </a></li>
+<a class="archive-date" >{{ work.date | date: '%B %Y' }}</a>
+  {% endfor %}
+
+</ul>
+
+  </section>
+
 </div>

@@ -5,22 +5,29 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+    @include span-columns(8);
 }
-
-.contact-list,
+@include direction-context(right-to-left) {
 .social-media-list {
     list-style: none;
     margin-left: 0;
-}
+    @include span-columns(3);
 
-.footer-col-wrapper {
+    li {
+      @include span-columns(3);
+
+    }
+
+}
+  }
+
+  .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;

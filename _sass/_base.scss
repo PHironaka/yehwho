@@ -23,6 +23,7 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+
 }
 
 
@@ -85,6 +86,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
+h2 {
+  font-weight: 400;
+font-size: 1.012em;
+text-transform: uppercase;
+
+}
 
 
 /**
@@ -96,6 +103,9 @@ a {
 
 }
 
+p {
+  letter-spacing: 1px;
+}
 
 
 /**
@@ -181,12 +191,12 @@ overflow: hidden;
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
+        width: 20px;
+        height: 20px;
+        vertical-align: top;
 
         path {
-            fill: $grey-color;
+            fill: #222;
         }
     }
 }

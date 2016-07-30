@@ -6,11 +6,25 @@
  .home {
    @include span-columns(8);
 @include shift(2);
+
+@media screen and (max-width: $break-large) {
+  display: block;
+  margin: 0;
+  width: 100%;
+
+}
+
   .home-bio {
-    font-family: 'Khula', sans-serif;
+    font-family: $header-font;
 font-size: 2.3em;
 line-height: 1.3em;
-padding: 1em 0;
+padding: 0 0 1em 0;
+
+@media screen and (max-width: $break-large) {
+  font-size: 1.8em;
+
+}
+
   }
  }
 
@@ -19,10 +33,74 @@ padding: 1em 0;
    padding: 2em 0;
    h2 {
      @include span-columns(2);
+
+     @media screen and (max-width: $break-large) {
+       display: block;
+       margin: 1em 0 ;
+       width: 100%;
+
+     }
+
    }
 
+   .projects {
+
+     @include span-columns(8);
+     list-style: none;
+     margin: 0 0 8px 0;
+
+        h3 {
+          @include span-columns(9);
+
+          @media screen and (max-width: $break-large) {
+            display: block;
+            margin: 1em 0;
+            width: 100%;
+
+          }
+        }
+
+        p {
+          @include span-columns(10);
+               line-height: 1.7em;
+
+               @media screen and (max-width: $break-large) {
+                 display: block;
+                 margin: 0;
+                 width: 100%;
+
+               }
+
+        }
+
+   }
+
+  ul {
+    @include span-columns(7);
+    list-style: none;
+    margin: 0 0 8px 0;
+
+    @media screen and (max-width: $break-large) {
+      @include span-columns(11);
+
+    }
+
+
+        li {
+          @include span-columns(10);
+
+        }
+   }
    p {
      @include span-columns(8);
+          line-height: 1.7em;
+
+          @media screen and (max-width: $break-large) {
+            display: block;
+            margin: 0;
+            width: 100%;
+
+          }
    }
  }
 
